@@ -1,0 +1,191 @@
+$text-xs: 0.75rem; /* 12px */
+$text-sm: 0.875rem; /* 14px */
+$text-base: 1rem; /* 16px*/
+$text-lg: 1.125rem; /* 18px */
+$text-xl: 1.25rem; /* 20px */
+$text-2xl: 1.5rem; /* 24px */
+$text-3xl: 1.875rem; /* 30px */
+$text-4xl: 2.25rem; /* 36px */
+$text-5xl: 3rem; /* 48px */
+$text-6xl: 3.75rem; /* 60px */
+$text-7xl: 4.5rem; /* 72px */
+
+$letter-spacing-tightest: -0.1rem;
+$letter-spacing-tighter: -0.05rem;
+$letter-spacing-tight: -0.025rem;
+$letter-spacing-wide: 0.025rem;
+$letter-spacing-wider: 0.05rem;
+$letter-spacing-widest: 0.1rem;
+
+$font-thin: 100;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+$font-heading: 'Adelle', Georgia, 'Times New Roman', Times, serif;
+$font-body: 'Proxima Nova', Arial, sans-serif;
+
+@mixin text-xs {
+  font-size: $text-xs;
+  line-height: 1rem;
+}
+@mixin text-sm {
+  font-size: $text-sm;
+  line-height: 1.25rem;
+}
+@mixin text-base {
+  font-size: $text-base;
+  line-height: 1.5rem;
+}
+@mixin text-lg {
+  font-size: $text-lg;
+  line-height: 1.75rem;
+}
+@mixin text-xl {
+  font-size: $text-xl;
+  line-height: 1.75rem;
+}
+@mixin text-2xl {
+  font-size: $text-2xl;
+  line-height: 2rem;
+}
+@mixin text-3xl {
+  font-size: $text-2xl;
+  line-height: 2.25rem;
+}
+@mixin text-4xl {
+  font-size: $text-4xl;
+  line-height: 2.5rem;
+}
+@mixin text-5xl {
+  font-size: $text-5xl;
+  line-height: 1;
+}
+@mixin text-6xl {
+  font-size: $text-6xl;
+  line-height: 1;
+}
+body {
+  color: $gray-0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  word-wrap: break-word;
+}
+
+h1 {
+  color: $gray-9;
+  @include text-4xl;
+  font-family: $font-heading;
+  font-weight: $font-bold;
+  @include tablet {
+    @include text-5xl;
+  }
+  @include laptop {
+    @include text-6xl;
+  }
+}
+h2 {
+  color: $gray-9;
+  @include text-3xl;
+  font-family: $font-heading;
+  font-weight: $font-bold;
+  @include tablet {
+    @include text-4xl;
+  }
+  @include laptop {
+    @include text-5xl;
+  }
+}
+h3 {
+  color: $gray-9;
+  @include text-3xl;
+  font-family: $font-heading;
+  font-weight: $font-bold;
+  @include tablet {
+    @include text-4xl;
+  }
+  @include laptop {
+    @include text-5xl;
+  }
+}
+h4 {
+  color: $gray-9;
+  @include text-2xl;
+  font-family: $font-heading;
+  font-weight: $font-bold;
+  @include tablet {
+    @include text-3xl;
+  }
+  @include laptop {
+    @include text-4xl;
+  }
+}
+h5 {
+  color: $gray-9;
+  @include text-xl;
+  font-family: $font-body;
+  font-weight: $font-semibold;
+  @include tablet {
+    @include text-2xl;
+  }
+  @include laptop {
+    @include text-3xl;
+  }
+}
+h6 {
+  color: $gray-9;
+  @include text-lg;
+  font-family: $font-body;
+  font-weight: $font-medium;
+  @include tablet {
+    @include text-xl;
+  }
+  @include laptop {
+    @include text-2xl;
+  }
+}
+p {
+  color: $gray-9;
+  @include text-sm;
+  font-family: $font-body;
+  @include tablet {
+    @include text-base;
+  }
+}
+
+a,
+button {
+  text-decoration: none;
+  @include text-sm;
+  font-weight: $font-semibold;
+  font-family: $font-body;
+  @include tablet {
+    @include text-base;
+  }
+}
+
+.caption {
+  color: inherit;
+  font-family: $font-body;
+  font-weight: $font-medium;
+  @include text-base;
+  @include tablet {
+    @include text-lg;
+  }
+}
+
+.headline {
+  color: inherit;
+  font-family: $font-heading;
+  margin-bottom: $spacer-4;
+}

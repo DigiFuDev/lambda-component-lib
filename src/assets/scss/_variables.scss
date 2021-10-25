@@ -1,0 +1,164 @@
+/* colors */
+$green-0: #effcf6;
+$green-1: #c6f7e2;
+$green-2: #8eedc7;
+$green-3: #65d6ad;
+$green-4: #3ebd93;
+$green-5: #27ab83;
+$green-6: #199473;
+$green-7: #147d64;
+$green-8: #0c6b58;
+$green-9: #014d40;
+
+$gray-0: #f0f4f8;
+$gray-1: #d9e2ec;
+$gray-2: #bcccdc;
+$gray-3: #9fb3c8;
+$gray-4: #829ab1;
+$gray-5: #627d98;
+$gray-6: #486581;
+$gray-7: #334e68;
+$gray-8: #243b53;
+$gray-9: #102a43;
+
+$blue-5: #dceefb;
+$blue-1: #b6e0fe;
+$blue-2: #84c5f4;
+$blue-3: #62b0e8;
+$blue-4: #4098d7;
+$blue-5: #2680c2;
+$blue-6: #186faf;
+$blue-7: #0f609b;
+$blue-8: #0a558c;
+$blue-9: #003e6b;
+
+$purple-0: #eae2f8;
+$purple-1: #cfbcf2;
+$purple-2: #a081d9;
+$purple-3: #8662c7;
+$purple-4: #724bb7;
+$purple-5: #653cad;
+$purple-6: #51279b;
+$purple-7: #421987;
+$purple-8: #34126f;
+$purple-9: #240754;
+
+$red-0: #ffeeee;
+$red-1: #facdcd;
+$red-2: #f29b9b;
+$red-3: #e66a6a;
+$red-4: #d64545;
+$red-5: #ba2525;
+$red-6: #a61b1b;
+$red-7: #911111;
+$red-8: #780a0a;
+$red-9: #610404;
+
+$yellow-0: #fffaeb;
+$yellow-1: #fcefc7;
+$yellow-2: #f8e3a3;
+$yellow-3: #f9da88;
+$yellow-4: #f7d070;
+$yellow-5: #e9b949;
+$yellow-6: #c99a2e;
+$yellow-7: #a27c1a;
+$yellow-8: #7c5e10;
+$yellow-9: #513c06;
+
+$black: #000;
+$white: #fff;
+$primary: $green-6;
+$secondary: $gray-6;
+$success: $blue-5;
+$info: $purple-5;
+$danger: $red-5;
+$warning: $yellow-5;
+
+/* opacity */
+$opacity-0: 0;
+$opacity-5: 0.05;
+$opacity-10: 0.1;
+$opacity-20: 0.2;
+$opacity-30: 0.3;
+$opacity-40: 0.4;
+$opacity-50: 0.5;
+$opacity-60: 0.6;
+$opacity-70: 0.7;
+$opacity-75: 0.75;
+$opacity-80: 0.8;
+$opacity-90: 0.9;
+$opacity-95: 0.95;
+$opacity-100: 1;
+
+/* Spacing */
+$spacer-1: 0.125rem; /* 2px */
+$spacer-2: 0.25rem; /* 4px */
+$spacer-3: 0.375rem; /* 6px */
+$spacer-4: 0.5rem; /* 8px */
+$spacer-5: 0.625rem; /* 10px */
+$spacer-6: 0.75rem; /* 12px */
+$spacer-7: 0.875rem; /* 14px */
+$spacer-8: 1rem; /* 16px */
+$spacer-9: 1.125rem; /* 18px */
+$spacer-10: 1.5rem; /* 24px*/
+$spacer-11: 1.75rem; /* 28px */
+$spacer-12: 2rem; /* 32px */
+$spacer-13: 2.25rem; /* 36px */
+$spacer-14: 2.5rem; /* 40px */
+$spacer-15: 2.75rem; /* 44px */
+$spacer-16: 3rem; /* 48px */
+$spacer-17: 3.5rem; /* 56px */
+$spacer-18: 4rem; /* 64px */
+$spacer-19: 4.5rem; /* 72px */
+$spacer-20: 6rem; /* 96px */
+$spacer-21: 7rem; /* 112px */
+$spacer-22: 8rem; /* 128px */
+$spacer-23: 9rem; /* 144px */
+$spacer-24: 10rem; /* 160px */
+$spacer-25: 11rem; /* 176px */
+$spacer-26: 12rem; /* 192px */
+$spacer-27: 13rem; /* 208px */
+$spacer-28: 14rem; /* 224px */
+$spacer-29: 15rem; /* 240px */
+$spacer-30: 16rem; /* 256px */
+$spacer-31: 18rem; /* 288px */
+$spacer-32: 20rem; /* 320px */
+$spacer-33: 24rem; /* 384px */
+$spacer-34: 28rem; /* 448px */
+$spacer-35: 32rem; /* 512px */
+$spacer-36: 36rem; /* 576px */
+$spacer-37: 40rem; /* 640px */
+
+/* border width */
+$border-0: 0px;
+$border-1: 1px;
+$border-2: 2px;
+$border-3: 3px;
+$border-4: 4px;
+
+/* border radius */
+$rounded-none: 0px;
+$rounded-sm: 0.125rem;
+$rounded: 0.25rem;
+$rounded-md: 0.375rem;
+$rounded-lg: 0.5rem;
+$rounded-xl: 0.75rem;
+$rounded-2xl: 1rem;
+$rounded-3xl: 1.5rem;
+$rounded-full: 9999px;
+
+/* Shadows */
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+$shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+
+/* animation */
+$ease-in-ease-out: cubic-bezier(0.4, 0, 0.2, 1);
+/* Screen Sizes */

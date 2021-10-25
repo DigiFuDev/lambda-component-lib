@@ -1,0 +1,72 @@
+@import '_variables.scss';
+@import '_breakpoints.scss';
+@import '_typography.scss';
+@import '_mixins.scss';
+@import '_animations.scss';
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+label,
+a {
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: black;
+}

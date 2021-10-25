@@ -1,0 +1,71 @@
+.slideDown-enter-active {
+  animation: slideDown 400ms;
+  animation-timing-function: $ease-in-ease-out;
+}
+
+.slideDown-leave-active {
+  animation: slideDown 400ms reverse;
+}
+
+.slideUp-enter-active {
+  animation: slideUp 400ms;
+}
+.slideUp-leave-active {
+  animation: slideUp 400ms reverse;
+}
+
+.slideRight-enter-active {
+  animation: slideRight 300ms;
+}
+
+.slideRight-leave-active {
+  animation: slideRight 300ms reverse;
+}
+
+.fadeIn-enter-active {
+  animation: fadeIn 300ms;
+}
+
+.fadeIn-leave-active {
+  animation: fadeIn 300ms reverse;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 100;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 100;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transfrom: translateX(0);
+    opacity: 100;
+  }
+}
