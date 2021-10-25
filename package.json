@@ -1,14 +1,14 @@
 {
-  "name": "@digifuco/PulsarUI",
+  "name": "@digifu-co-public/pulsar-ui",
   "files": [
     "dist"
   ],
-  "main": "./dist/lc-lib.umd.js",
-  "module": "./dist/lc-lib.es.js",
+  "main": "./dist/pui-lib.umd.js",
+  "module": "./dist/pui-lib.es.js",
   "exports": {
     ".": {
-      "import": "./dist/lc-lib.es.js",
-      "require": "./dist/my-lib.umd.js"
+      "import": "./dist/pui-lib.es.js",
+      "require": "./dist/pui-lib.umd.js"
     }
   },
   "version": "0.0.1",

@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/components/index.js'),
-      name: 'LambdaComponentLib',
-      fileName: (format) => `lc-lib.${format}.js`,
+      name: 'pulsar-ui',
+      fileName: (format) => `pui-lib.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],

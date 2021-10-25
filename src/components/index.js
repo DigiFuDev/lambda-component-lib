@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
 
-export { default as LcButton } from './LcButton.vue';
-export { default as LcCard } from './LcCard.vue';
-export { default as LcHero } from './LcHero.vue';
+export { default as PuiButton } from './PuiButton.vue';
+export { default as PuiCard } from './PuiCard.vue';
+export { default as PuiHero } from './PuiHero.vue';
